@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="main-obj" src="foot.obj"></a-asset-item>
+        <a-asset-item id="main-mtl" src="foot.mtl"></a-asset-item>
+        <a-asset-item id="foot-obj" src="foot.obj"></a-asset-item>
+        <a-asset-item id="foot-mtl" src="foot.mtl"></a-asset-item>
+      </a-assets>
+
+      <a-entity obj-model="obj: #main-obj; mtl: #main-mtl" position="0 1.6 0.900" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #main-obj; mtl: #main-mtl" position="0.92 0.775 -0,330" rotation="180 -85 -103" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #foot-obj; mtl: #foot-mtl" position="-0.64 0.562 0.408" rotation="84 164 151" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #foot-obj; mtl: #foot-mtl" position="1 1.590 0.408" rotation="-82.50 140.9 26.350" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #foot-obj; mtl: #foot-mtl" position="-1.08 1.433 O.847" rotation="-82.9 144.4 22.852" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #foot-obj; mtl: #foot-mtl" position="-0.95 1.600 -0.429" rotation="0 -89.5 0" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #foot-obj; mtl: #foot-mtl" position="-1.10 1.4 -1.1" rotation="-91.2 3.8 46.5" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #foot-obj; mtl: #foot-mtl" position="-0.91 0.5 -0.9" rotation="-3 -95.7 -102.6" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #foot-obj; mtl: #foot-mtl" position="0 1.6 0.9" rotation="0 0 0" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #foot-obj; mtl: #foot-mtl" position="0 1.420 0.042" rotation="-86.3 0" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #foot-obj; mtl: #foot-mtl" position="-0.64 0.560 0.408" rotation="84.0 164.0 151.0" scale="0.0300 0.0300 0.0300" ></a-entity>
+      <a-entity obj-model="obj: #foot-obj; mtl: #foot-mtl" position="0 1.460 -0.942" rotation="-178.0 0 0" scale="0.0300 0.0300 0.0300" ></a-entity>
+
+
+
+
+
+      <a-box position="0 1 -1.500" rotation="" scale="3 2 0.01" color="#FFF"></a-box>
+      <a-box position="0 1 1.500" rotation="" scale="3 2 0.01" color="#FFF></a-box>
+      <a-box position="-1.500 1 0.004" rotation="0 90 0" scale="3 2 0.01" color="#FFF"></a-box>
+      <a-box position="1.500 1 0.350" rotation="0 90 0" scale="2.300 2 0.01"  color="#FFF"></a-box>
+
+      <a-plane position="0 0 0" rotation="-90 0 0" width="3" height="3" src="#texture2"></a-plane>
+      <a-sky src="#texture3"></a-sky>
+    </a-scene>
+  </body>
+</html>
